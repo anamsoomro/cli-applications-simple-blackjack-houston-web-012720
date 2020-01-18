@@ -36,7 +36,6 @@ def initial_round()
 end
 
 def hit?(current_total)
-  binding.pry
   prompt_user()
   next_play = get_user_input()
   binding.pry
