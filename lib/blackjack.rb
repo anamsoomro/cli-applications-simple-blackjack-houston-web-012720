@@ -37,7 +37,7 @@ def hit?(current_total)
   prompt_user()
   next_play = get_user_input()
   if next_play == 'h'
-    deal_card()
+    current_total += deal_card()
   elsif next_play == 's'
     end_game(current_total)
   else 
