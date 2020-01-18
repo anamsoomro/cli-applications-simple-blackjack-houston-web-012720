@@ -45,7 +45,6 @@ def hit?(current_total)
     invalid_command()
     prompt_user()
   end
-  current_total
 end
 
 def invalid_command()
