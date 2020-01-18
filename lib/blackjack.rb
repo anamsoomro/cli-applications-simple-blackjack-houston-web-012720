@@ -37,15 +37,23 @@ end
 def hit?(current_total)
   prompt_user()
   next_play = get_user_input()
-  if next_play == 'h'
-    current_total += deal_card()
-  elsif next_play == 's'
-    current_total
-  else 
+  if next_play == 'h' || next_play == 's'
+    if next_play == 'h'
+      current_total += deal_card()
+    elsif next_play == 's'
+      current_total
+    end
+  else
     invalid_command()
     prompt_user()
   end
 end
+  
+  
+  
+  
+  
+ 
 
 def invalid_command()
   puts "Please enter a valid command"
