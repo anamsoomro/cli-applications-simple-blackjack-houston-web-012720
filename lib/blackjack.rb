@@ -64,5 +64,6 @@ def runner ()
   until current_total > 21
     current_total = hit? (current_total)
   end
+end_game
 end
     
