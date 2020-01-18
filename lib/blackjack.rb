@@ -19,7 +19,7 @@ def prompt_user()
 end
 
 def get_user_input()
-  # gets idk how to use gets to be honest 
+  user_input = gets 
 end
 
 def end_game(num)
