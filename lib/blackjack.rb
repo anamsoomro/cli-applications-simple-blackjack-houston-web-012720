@@ -36,7 +36,6 @@ end
 def hit?(current_total)
   prompt_user()
   next_play = get_user_input()
-  binding.pry
   if next_play == 'h' || next_play == 's'
     if next_play == 'h'
       current_total += deal_card()
