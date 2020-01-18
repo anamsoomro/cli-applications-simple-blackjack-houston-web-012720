@@ -39,7 +39,7 @@ def hit?(current_total)
   if next_play == 'h'
     current_total += deal_card()
   elsif next_play == 's'
-    end_game(current_total)
+    current_total
   else 
     invalid_command()
   end
