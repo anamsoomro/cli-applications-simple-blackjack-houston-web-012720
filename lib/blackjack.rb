@@ -4,7 +4,7 @@ end
 
 def deal_card()
   random_number = 0
-  until !random_number == 0 do 
+  while random_number == 0 do 
     random_number = rand(11)
   end
   random_number
